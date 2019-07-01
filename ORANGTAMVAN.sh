@@ -17,11 +17,11 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-figlet TOOL ORANG TAMVAN😎 | lolcat
+figlet TOOL ORANG TAMVAN😎| lolcat
 
 echo -e  "_____________________________________________________________"
-echo -e  "Tools    : NAMA DISAMARKAN $white         " |lolcat
-echo -e  "Creadby  : NAMA DISAMARKAN $white   " |lolcat
+echo -e  "Tools    : NAMA DISAMARKAN😎 $white         " |lolcat
+echo -e  "Creadby  : NAMA DISAMARKAN😎 $white   " |lolcat
 echo -e  "hubungi saya di  : aripsaepudin1389@gmail.com $white " |lolcat
 echo -e  "_____________________________________________________________"
 
@@ -44,27 +44,47 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
+echo -e "============================" | lolcat
+echo -e "============================" | lolcat
 echo -e $b "1.  Nmap${enda}";
+echo -e "============================" | lolcat
 echo -e "============================" | lolcat
 echo -e $r "2.  Install Webdav${endc}";
 echo -e "============================" | lolcat
+echo -e "============================" | lolcat
 echo -e $g "3.  RED_HAWK${endc}";
+echo -e "============================" | lolcat
 echo -e "============================" | lolcat
 echo -e $c "4   HACKCAM${endc}";
 echo -e "============================" | lolcat
+echo -e "============================" | lolcat
 echo -e $r "5.  Tools-X${endc}";
+echo -e "============================" | lolcat
 echo -e "============================" | lolcat
 echo -e $y "6.  kuota murah xl dan telkomsel${endc}";
 echo -e "============================" | lolcat
+echo -e "============================" | lolcat
 echo -e $c "7.  Lite DDOS${endc}";
 echo -e "============================" | lolcat
-echo -e $g "8.   munculkan animasi kereta${endc}";
+echo -e "============================" | lolcat
+echo -e $g "8.  munculkan animasi kereta${endc}";
+echo -e "============================" | lolcat
 echo -e "============================" | lolcat
 echo -e $r "9.  Menampilkan ikon dan informasi sistem android${endc}";
 echo -e "============================" | lolcat
+echo -e "============================" | lolcat
 echo -e $g "10.  TUTOR HACK CCTV${endc}";
 echo -e "============================" | lolcat
+echo -e "============================" | lolcat
+echo -e $b "11. Install metalspoit${endc}";
+echo -e "============================" | lolcat
+echo -e "============================" | lolcat
+echo -e $c "98.membuat file termux dimemori${endc}";
+echo -e "============================" | lolcat
+echo -e "============================" | lolcat
 echo -e $r "99. Exit${endc}";
+echo -e "============================" | lolcat
+echo -e "============================" | lolcat
 echo -e "╭─0day" |lolcat
 read -p "╰─#" pil;
 
@@ -178,6 +198,23 @@ pip2 install requests
 git clone https://github.com/kancotdiq/ipcs
 cd ipcs
 python2 ipcs.py
+
+;;
+
+#Install metalspoit
+
+11)pkg update
+pkg install wget
+wget https://5hady.github.io/metasploit.sh
+ls
+bash metasploit.sh
+msfconsole
+
+;;
+
+#membuat file termux di memori
+
+98)termux-setup-storage
 
 ;;
 
